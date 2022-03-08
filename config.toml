@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Hugo Hero Theme"
+title = "Tetelestai | Delivering change"
 themesDir = "themes"
 theme = "hugo-hero-theme"
 
@@ -8,7 +8,7 @@ theme = "hugo-hero-theme"
   [module.hugoVersion]
     extended = true
     min = "0.92.0"
-    
+
 [params]
   google_analytics_id=""
 
@@ -19,43 +19,30 @@ theme = "hugo-hero-theme"
     desktop = "images/logo.svg"
     desktop_height = "29px"
     desktop_width = "217px"
-    alt = "Hugo Hero"
+    alt = "Tetelestai"
 
   [params.homepage_meta_tags]
-    meta_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
-    meta_og_title = "Hugo Hero Theme"
+    meta_description = "."
+    meta_og_title = "Tetelestai"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-hero.netlify.app"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
-    meta_og_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
-    meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
-
-[[menu.main]]
-	name = "Services"
-	url = "/services/"
-    weight = 1
-
-[[menu.main]]
-    name = "Work"
-    url = "/work/"
-    weight = 2
+    meta_og_url = "."
+    meta_og_image = "."
+    meta_og_description = "."
 
 [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 1
 
 [[menu.main]]
-    name = "History"
-    url = "/history/"
-    weight = 3
+	  name = "Services"
+	  url = "/services/"
+    weight = 2
 
 [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 4
+    weight = 3
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
